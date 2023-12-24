@@ -60,5 +60,6 @@ require("mini.pairs").setup({ })
 require("mini.statusline").setup({ use_icons=false, })
 require("mini.completion").setup({ })
 require("options")
+require("autocmds")
 
 vim.cmd("colorscheme habamax")
